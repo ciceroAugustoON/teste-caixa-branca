@@ -9,9 +9,9 @@
 ### Grafo de Fluxo
 ![Control-flow graph](./imgs/cfg.png)
 ### Cálculo de complexidade ciclomática
-M = E − N + 2P
-M = 6 - 6 + 2
-M = 2
+- M = E − N + 2P
+- M = 6 - 6 + 2
+- M = 2
 ### Base de Caminhos
-Caminho 1: 1 -> 2 -> 3 -> 4 -> 6
-Caminho 2: 1 -> 2 -> 3 -> 5 -> 6
+- Caminho 1: 1 -> 2 -> 3 -> 4 -> 6
+- Caminho 2: 1 -> 2 -> 3 -> 5 -> 6
