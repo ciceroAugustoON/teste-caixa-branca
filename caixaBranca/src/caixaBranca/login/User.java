@@ -19,21 +19,21 @@ public class User {
     public String nome="";
     public boolean result = false;
     public boolean verificarUsuario(String login, String senha) {
-        String sql = "";
+        /*1*/ String sql = "";
         Connection conn = conectarBD();
         // INSTRUÇÃO SQL
         sql += "select nome from usuarios ";
         sql += "where login = '" + login + "'";
         sql += " and senha = '" + senha + "';";
         try {
-            Statement st = conn.createStatement();
+            /*2*/Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(sql);
-            if (rs.next()) {
-                result = true;
+            /*3*/if (rs.next()) {
+                /*4*/result = true;
                 nome = rs.getString("nome");
-            }
+            /*5*/}
         } catch (Exception e) { }
-        return result;
+        /*6*/return result;
     }
 }
 //fim da classe
