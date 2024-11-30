@@ -1,3 +1,8 @@
+# Teste de caixa branca
+- Este repositório tem como objetivo, realizar 4 etapas do teste de caixa branca utilizando a classe User como objeto de estudo.
+- A seguir tem-se todas as etapas realizadas para o teste, abaixo tem-se os erros apontados na classe e em seguida os critérios de caixa branca.
+- No repositório também há a planilha de teste utilizada para registros e o código contido na pasta caixaBranca.
+
 ## Erros
 - Na linha 15, a exceção não é tratada corretamene, pois o bloco catch está vazio, fazendo com que, caso uma exceção seja gerada, não haverá retorno nenhum.
 - Na linha 19, a propriedade "nome" é pública, sendo possível modificá-lo em qualquer parte do projeto.
